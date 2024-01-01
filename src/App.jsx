@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar.jsx";
 import HeroSection from "./components/HeroSection.jsx";
 import LogoBar from "./components/LogoBar.jsx";
+import SkillsSection from "./components/SkillsSection.jsx";
+import GallerySection from "./components/GallerySection.jsx";
 
 import "./App.css";
 
@@ -10,6 +12,8 @@ function App() {
       <Navbar />
       <HeroSection/>
       <LogoBar />
+      <SkillsSection/>
+      <GallerySection/>
     </div>
   );
 }

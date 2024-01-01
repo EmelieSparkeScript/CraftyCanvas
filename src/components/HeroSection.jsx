@@ -7,7 +7,7 @@ function HeroSection() {
     <section className="flex flex-col md:flex-row justify-between items-center px-4 md:px-10 py-6">
       <div>
         <header>
-          <h3 className="font-semibold leading-7 text-xl">Branding | Image making</h3>
+          <h2 className="font-semibold leading-7 text-xl">Branding | Image making</h2>
           <h1 className="my-6 font-semibold text-7xl">Visual Designer</h1>
         </header>
         <p className="leading-7 mb-12">
