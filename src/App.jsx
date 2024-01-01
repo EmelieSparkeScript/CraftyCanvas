@@ -1,10 +1,16 @@
+import Navbar from "./components/Navbar.jsx";
+import HeroSection from "./components/HeroSection.jsx";
+import LogoBar from "./components/LogoBar.jsx";
+
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl text-dou-lu-green font-bold underline">Hello world!</h1>
-    </>
+    <div className="container mx-auto text-carbon-fiber text-base font-epilogue">
+      <Navbar />
+      <HeroSection/>
+      <LogoBar />
+    </div>
   );
 }
 

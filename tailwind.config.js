@@ -10,7 +10,11 @@ export default {
         'sango-pink': "#F3AFA8",
         'bleached-silk': "#F3F3F3",
         'pixel-cream': "#F7D684",
-      }
+      },
+      fontFamily: {
+        'epilogue':['"epilogue"']
+      },
+      
     },
   },
   plugins: [],
