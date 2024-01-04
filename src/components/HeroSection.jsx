@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./Button";
 import heroImage from "../assets/heroimage.png";
 
@@ -7,7 +6,9 @@ function HeroSection() {
     <section className="flex flex-col md:flex-row justify-between items-center px-4 md:px-10 py-6">
       <div>
         <header>
-          <h2 className="font-semibold leading-7 text-xl">Branding | Image making</h2>
+          <h2 className="font-semibold leading-7 text-xl">
+            Branding | Image making
+          </h2>
           <h1 className="my-6 font-semibold text-7xl">Visual Designer</h1>
         </header>
         <p className="leading-7 mb-12">
@@ -16,7 +17,10 @@ function HeroSection() {
         </p>
         <Button label="Contact" href="Contact" />
       </div>
-      <img src={heroImage} alt="Visual Designer working on branding and image making" />
+      <img
+        src={heroImage}
+        alt="Visual Designer working on branding and image making"
+      />
     </section>
   );
 }
